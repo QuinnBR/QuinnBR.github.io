@@ -77,8 +77,8 @@ li a:hover {
 .texthead {
   background-color: #333333;
   text-align: center;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 10%;
+  margin-right: 10%;
   font-size: 50px
 }
 p {
@@ -87,8 +87,8 @@ p {
 .text {
   background-color: #333333;
   text-align: center;
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 10%;
+  margin-right: 10%;
   margin-bottom: 10px;
   font-size: 25px
 }
@@ -117,4 +117,12 @@ li a {
 /* Change the link color to #111 (black) on hover */
 li a:hover {
     background-color: #111;
+}
+.special {
+  font-size: 500px;
+  text-align: center;
+  color: #444444;
+}
+.special:hover{
+  color: #ffffff;
 }
