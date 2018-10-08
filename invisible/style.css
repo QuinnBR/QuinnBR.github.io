@@ -1,16 +1,70 @@
+
 * {
   margin: 0px;
-  padding: 0px;
   border: 0px;
-  font-family: Impact;
-  background-color: #ee1100;
+  padding: 0px;
+  font-family: impact;
   text-align: center;
+  color: #ffffff;
+  background-color: #444444
 }
-.a {
-  font-size: 100px;
-  color: #000000;
-  background-color: #0011cc;
+.head {
+  background-color: #444444;
+  color: #ffffff;
+  font-size: 150px;
 }
-.a:hover {
-  
+.headrest {
+  font-size: 80px;
+}
+.texthead {
+  background-color: #333333;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-size: 50px
+}
+p {
+  margin: 5px
+}
+.text {
+  background-color: #333333;
+  text-align: center;
+  margin-left: 250px;
+  margin-right: 250px;
+  margin-bottom: 10px;
+  font-size: 25px
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.special {
+  font-size: 500px;
+  text-align: center;
+  color: #444444;
+}
+.special:hover{
+  color: #ffffff;
 }
