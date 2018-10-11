@@ -17,6 +17,7 @@
   font-size: 80px;
 }
 .texthead {
+  margin-top: 10px;
   background-color: #333333;
   text-align: center;
   margin-left: 250px;
@@ -35,7 +36,7 @@ p {
   font-size: 25px
 }
 
-ul {
+#navbar {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -43,11 +44,11 @@ ul {
     background-color: #333;
 }
 
-li {
-    float: left;
+#navbar {
+    float: center;
 }
 
-li a {
+#navbar a {
     display: block;
     background-color: #333;
     color: white;
@@ -57,14 +58,14 @@ li a {
 }
 
 /* Change the link color to #111 (black) on hover */
-li a:hover {
+#navbar a:hover {
     background-color: #111;
 }
-.special {
+#special {
   font-size: 500px;
   text-align: center;
   color: #444444;
 }
-.special:hover{
+#special:hover{
   color: #ffffff;
 }
