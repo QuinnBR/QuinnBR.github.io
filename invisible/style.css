@@ -5,6 +5,16 @@
   background-color: #555;
   text-align: center;
 }
+footer {
+  text-align: left;
+  background: 0;
+  position: sticky;
+  bottom: 0;
+}
+div {
+  margin-right: 10%;
+  margin-left: 10%;
+}
 #head {
   font-size: 100px;
 }
@@ -13,6 +23,9 @@
 }
 
 #navbar {
+  margin: 0;
+  position: sticky;
+  top: 0;
   overflow: hidden;
   background-color: #333;
 }
@@ -34,20 +47,6 @@
 }
 
 #navbar a.active {
-  background-color: #4C50AF;
+  background-color: #0000ff;
   color: white;
-}
-
-.content {
-  padding: 16px;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
 }
