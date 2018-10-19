@@ -6,8 +6,16 @@
   background-color: #666666;
   text-align: center;
 }
-header {
+.masterhead {
   font-size: 150%;
+  margin-top: .75%;
+  margin-bottom: -0.9%;
+  background-color: #555;
+  margin-top: 0.2%;
+  margin-bottom: 0.5%;
+}
+header {
+  font-size: 125%;
   margin-top: 0.5%;
   margin-bottom: -0.9%;
   background-color: #555;
@@ -36,17 +44,16 @@ footer {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 25px;
-  height: 25px;
+  width: 1%;
 }
 div {
   margin-right: 10%;
   margin-left: 10%;
 }
-#head {
+#logo {
   font-size: 400%;
 }
-#headrest {
+#logoRest {
   font-size: 250%;
 }
 
@@ -55,14 +62,14 @@ div {
   position: sticky;
   top: 0;
   overflow: hidden;
-  background-color: #444;
+  background-color: rgba(68, 68, 68, 0.5);
 }
 
 #navbar a {
   float: left;
   display: block;
-  background-color: #444;
-  color: #eee;
+  background-color: rgba(68, 68, 68, 0.04);
+  color: #ccc;
   text-align: center;
   padding: 0.8% 0.5%;
   text-decoration: none;
@@ -70,6 +77,6 @@ div {
 }
 
 #navbar a:hover {
-  background-color: #eee;
-  color: black;
+  background-color: #111;
+  color: #aaa;
 }
