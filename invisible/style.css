@@ -3,7 +3,7 @@
   margin: 0;
   font-size: 28px;
   font-family: impact;
-  background-color: #666;
+  background-color: #666666;
   text-align: center;
 }
 header {
@@ -32,6 +32,13 @@ footer {
   bottom: 0;
   right: 0.5%;
 }
+#QBRPic {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+}
 div {
   margin-right: 10%;
   margin-left: 10%;
@@ -55,7 +62,7 @@ div {
   float: left;
   display: block;
   background-color: #444;
-  color: #fff;
+  color: #eee;
   text-align: center;
   padding: 0.8% 0.5%;
   text-decoration: none;
