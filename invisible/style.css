@@ -20,12 +20,12 @@ header {
   background-color: #555;
 }
 .date {
-  margin-top: 1px;
+  margin-top: 3px;
   font-size: 50%;
 }
 p {
   padding: 0.25%;
-  margin-top: 1%;
+  margin-top: -0.1%;
   margin-bottom: 2%;
   background-color: #555;
   font-size: 75%;
