@@ -18,12 +18,16 @@ header {
   background-color: #555;
 }
 .date {
+<<<<<<< HEAD
   margin: 0%;
+=======
+  margin-top: 1px;
+>>>>>>> parent of 066a78e... Update style.css
   font-size: 50%;
 }
 p {
   padding: 0.25%;
-  margin-top: -0.1%;
+  margin-top: 1%;
   margin-bottom: 2%;
   background-color: #555;
   font-size: 75%;
