@@ -2,12 +2,12 @@
   color: #222;
   margin: 0;
   font-family: impact;
-  background-color: #666666;
+  background-color: #888888;
   text-align: center;
 }
 .masterhead {
   font-size: 150%;
-  background-color: #555;
+  background-color: rgba(0, 0, 0, 0.15);
   margin-top: 0.2%;
   margin-bottom: 0.5%;
 }
@@ -18,18 +18,18 @@ header {
   font-size: 125%;
   margin-top: .5%;
   margin-bottom: -0.1%;
-  background-color: #555;
+  background-color: rgba(0, 0, 0, 0.15);
 }
 .date {
   margin-bottom: 0%;
   font-size: 50%;
-  background-color: #666666;
+  background-color: #888888;
 }
 p {
   padding: 0.25%;
   margin-top: 0%;
   margin-bottom: .2%;
-  background-color: #555;
+  background-color: rgba(0, 0, 0, 0.15);
   font-size: 75%;
 }
 footer {
@@ -63,13 +63,13 @@ div {
   position: sticky;
   top: 0;
   overflow: hidden;
-  background-color: rgba(68, 68, 68, 0.5);
+  background-color: rgba(0, 0, 0, 0.15);
 }
 
 #navbar a {
   float: left;
   display: block;
-  background-color: rgba(68, 68, 68, 0.04);
+  background-color: rgba(0, 0, 0, 0);
   color: #ccc;
   text-align: center;
   padding: 0.8% 0.5%;
