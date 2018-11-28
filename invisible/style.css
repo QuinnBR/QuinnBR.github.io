@@ -50,9 +50,11 @@ div {
 }
 #logo {
   font-size: 400%;
+  font: impact;
 }
 #logoRest {
   font-size: 250%;
+  font: impact;
 }
 
 #navbar {
