@@ -44,7 +44,7 @@ footer {
   left: 0;
   width: 0.001%;
 }
-div {
+section {
   margin-right: 10%;
   margin-left: 10%;
 }
@@ -63,7 +63,7 @@ nav {
   background-color: rgba(0, 0, 0, 0.15);
 }
 
-#navbar a {
+nav a {
   float: left;
   display: block;
   background-color: rgba(0, 0, 0, 0);
@@ -74,7 +74,7 @@ nav {
   font-size: 60%;
 }
 
-#navbar a:hover {
+nav a:hover {
   background-color: #111;
   color: #aaa;
 }
