@@ -82,3 +82,13 @@ nav a:hover {
   background-color: #111;
   color: #aaa;
 }
+
+/* Smartphones (landscape) ----------- */
+min-width : 321px {
+  background-color: yellow;
+}
+
+/* Smartphones (portrait) ----------- */
+max-width : 320px {
+  background-color: yellow;
+}
