@@ -2,7 +2,7 @@
   color: #222;
   margin: 0;
   font-family: sans-serif;
-  background-color: #888888;
+  background-color: #fff;
   text-align: center;
 }
 .masterhead {
@@ -20,7 +20,7 @@ header {
 .date {
   margin-bottom: 0%;
   font-size: 80%;
-  background-color: #888888;
+  background-color: #fff;
 }
 p {
   padding: 0.25%;
@@ -71,7 +71,7 @@ nav a {
   float: left;
   display: block;
   background-color: rgba(0, 0, 0, 0);
-  color: #ccc;
+  color: #000;
   text-align: center;
   padding: 0.8% 0.5%;
   text-decoration: none;
@@ -79,7 +79,7 @@ nav a {
 }
 
 nav a:hover {
-  background-color: #111;
+  background-color: rgba(0, 0, 0, 0.25);
   color: #aaa;
 }
 
